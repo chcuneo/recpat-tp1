@@ -16,7 +16,7 @@ gd1 = multivariate_normal(mean=mean_1, cov=cov_1)
 # Multivariate normal 2 mean
 mean_2 = [2, 2]
 # Multivariate normal 2 covariance matrix
-cov_2 = [[10, 5], [5, 5]]  # diagonal covariance
+cov_2 = [[10, 5], [5, 5]]
 gd2 = multivariate_normal(mean=mean_2, cov=cov_2)
 
 # Generate grid of poins in 2d space, to sample the probility density of both bivariate gaussians
